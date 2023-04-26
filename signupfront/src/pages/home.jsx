@@ -9,7 +9,7 @@ export const Home = () => {
     
     return (
         <section className="homeBox">
-            <div className="overlay"></div>
+          
         
             <img src={backgroundPhoto} className="backgroundPhoto" alt="homeBackgroundPhoto"/> 
         
@@ -18,29 +18,51 @@ export const Home = () => {
                 <p>Home page</p>
                 
              
-                <div className="reservationContainer">
+                <div className="inputContainer">
                     <p>Reservation</p>
                     <p>Reservation</p>
-                    <p>Reservation</p>
-                    <p>Reservation</p>
-                    
-                    
-                    <div className="locationInput">
-                        <h4> Search Pick-up Location</h4>
-                        <input type="text" placeholder="Enter your location to find the nearest rental car office"/>
-                    </div>
-                
+                  
+                    <form>
+                        <div className="inputBoxes" >
+                                <div className="inputBox">
+                                <span className="locationInput" >Search Pick-up Location</span>
+                                    <input type="text" placeholder="Enter pickup location " required/>
+                                </div>
+                                
+                            
+                                <div className="inputBox">
+                                    <span className="pickUpDateInput"> Searc Pick-up Date</span>
+                                        <input type="date"/>
+                                </div>
 
-                    <div className="pickUpDate">
-                         <div className="pickUpDateInput">
-                            <h5> Search Pick-up Date</h5>
-                            <input type="date"/>
-                        </div>
-                    </div>
+                                <div className="inputBox">
+                                    <span className="pickUpTimeInput"> Searc Pick-up Time</span>
+                                        <input type="time"/>
+                                </div>
 
+                                
+                                <div className="inputBox">
+                                    <span className="dropOffDateInput"> Drop-off Date</span>
+                                        <input type="date"/>
+                                </div>
+
+
+                                <div className="inputBox">
+                                    <span className="dropOffTimeInput"> Drop-off Time</span>
+                                        <input type="time"/>
+                                </div>
+
+                                <div class="submitButton">
+                                    <input type="submit" value="register"></input>
+
+                                </div>
+                            </div>
+                        </form>
+                    </div>
+                   
                 </div>
-            
-            </div>
+               
+        
         </section>
     );
 }

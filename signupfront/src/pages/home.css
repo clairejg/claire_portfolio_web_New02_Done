@@ -7,23 +7,30 @@
 
 
     
-.reservationContainer{
+.inputContainer{
     position: relative;
-    border: 2px solid rgb(83, 145, 237);
+ 
     border-radius: 40px;
     width:95%;
     height:100%;
     margin-left: auto;
     margin-right: auto;
+
+    /* font-size: 25px; */
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    /* padding: 40px;
+    box-sizing: border-box; */
+    background: #ecf0f3;
+    box-shadow: 14px 14px 20px #cbced1, -14px -14px 20px rgb(168, 203, 241);
+
 }
 
 .locationInput {
     position: relative;
     width:90%;
     height:100px;
-    border: 2px solid rgb(146, 193, 150);
     background-color: rgb(123, 107, 90);
-    border-radius: 100px;
+    border-radius: 10px;
     justify-content:flex-left; 
     align-content: relative;
 
@@ -31,6 +38,12 @@
     margin-left: auto;
     margin-right: auto;
     /* align-items:center; */
+
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+   
+    background: #ecf0f3;
+    box-shadow: 14px 14px 20px #cbced1, -14px -14px 20px rgb(168, 203, 241);
+
 
 }
 
@@ -38,20 +51,57 @@
 .pickUpDateInput{
     position: relative;
     width:90%;
-    height:100px;
-    border: 2px solid rgb(146, 193, 150);
-    background-color: rgb(191, 103, 9);
-    border-radius: 100px;
-    justify-content:flex-left; 
+    height:100%;
+
+    border-radius: 10px;
+    /* justify-content:flex-left;  */
+    display: flex;
     align-content: relative;
     /* display: flex; */
     margin-left: auto;
     margin-right: auto;
     /* align-items:center; */
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+   
+    background: #ecf0f3;
+    box-shadow: 14px 14px 20px #cbced1, -14px -14px 20px rgb(168, 203, 241);
+
 
 }
 
 
 
+.inputContainer form .inputBoxes
+{
+    display:flex;
+    /* flex-wrap:wrap; */
 
- 
+}
+
+
+/* 
+locationInput pickUpDateInput
+pickUpTimeInput
+dropOffDateInput */
+
+
+/* 
+
+body{
+  
+    background-color: whitesmoke;
+    text-align: center;
+    font-size: 25px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    position: relative;
+    margin-top:10px;
+    margin:auto;
+    width:95%;
+    height: 900px;
+    border-radius: 20px;
+    padding: 40px;
+    box-sizing: border-box;
+    background: #ecf0f3;
+    box-shadow: 14px 14px 20px #cbced1, -14px -14px 20px rgb(123, 180, 242);
+
+} */
