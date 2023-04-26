@@ -1,7 +1,8 @@
 import React from "react";
 import  "./home.css";
 // import  "./home.scss";
-import backgroundPhoto from "../pages/logos/cityWall.jpeg";
+// import backgroundPhoto from "../pages/logos/cityWall.jpeg";
+import backgroundPhoto from "../pages/logos/baybridge02.jpg";
 
 
 export const Home = () => {
